@@ -36,47 +36,61 @@ printf("Cadastro carta01 \n");
 
         printf("Digite o estado: \n");
         scanf("%s", estado01);
+limparBuffer();      
 
         printf("Digite o código da carta: \n");
         scanf("%d", &codigo01);
+limparBuffer();   
 
         printf("Digite o nome da cidade: \n");
         scanf(" %s", nome01);
+limparBuffer();    
 
         printf("Digite a população: \n");
         scanf("%d", &populacao01);
+limparBuffer();   
 
         printf("Digite o a área: \n");
         scanf("%f", &area01);
+limparBuffer();   
 
         printf("Digite o valor do PIB: \n");
         scanf("%f", &pib01);
+limparBuffer();      
 
         printf("Digite a quantidade de pontos turísticos: \n");
         scanf("%d", &pontosturisticos01);
+ limparBuffer();   
 
 //atributos carta02        
  
         printf("Digite o estado: \n");
         scanf("%s", estado02);
+limparBuffer();
 
         printf("Digite o código da carta: \n");
         scanf("%d", &codigo02);
+limparBuffer();
 
         printf("Digite o nome da cidade: \n");
         scanf(" %s", nome02);
+limparBuffer();        
 
         printf("Digite a população: \n");
         scanf("%d", &populacao02);
+limparBuffer();        
 
         printf("Digite o a área: \n");
         scanf("%f", &area02);
+limparBuffer();        
 
         printf("Digite o valor do PIB: \n");
         scanf("%f", &pib02);
+limparBuffer();        
 
         printf("Digite a quantidade de pontos turísticos: \n");
         scanf("%d", &pontosturisticos02);
+limparBuffer();       
       
 
     
